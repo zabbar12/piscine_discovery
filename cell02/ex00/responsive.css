@@ -1,0 +1,34 @@
+<style>
+    /* Styles généraux */
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Styles pour le tableau */
+    table {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+    }
+
+    table.border_1_solid_black td {
+        border: 2px solid black;
+    }
+
+    /* Styles pour les cellules du tableau */
+    td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* Styles pour les colonnes */
+    td:first-child {
+        background-color: blue;
+    }
+
+    td:last-child {
+        background-color: orange;
+    }
+</style>

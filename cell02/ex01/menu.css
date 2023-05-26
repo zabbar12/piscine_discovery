@@ -1,0 +1,67 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Styles pour la typographie */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Styles pour la barre de menu */
+nav {
+    background-color: rgb(19, 16, 16);
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles pour le menu déroulant */
+nav ul li.menu-deroulant:hover .sous-menu {
+    display: block;
+}
+
+nav ul .sous-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+nav ul .sous-menu li {
+    display: block;
+    padding: 10px;
+}
+
+nav ul .sous-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Styles pour la mise en page responsive */
+@media screen and (max-width: 768px) {
+    /* Ajoutez ici les styles spécifiques pour les écrans de petite taille */
+}
+
+

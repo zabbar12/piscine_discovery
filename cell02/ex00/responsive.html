@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Tableau</title>
+
+    <style>
+        /* Styles généraux */
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styles pour le tableau */
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+
+        table.border_1_solid_black td {
+            border: 2px solid black;
+        }
+
+        /* Styles pour les cellules du tableau */
+        td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /* Styles pour les colonnes */
+        td:first-child {
+            background-color: blue;
+        }
+
+        td:last-child {
+            background-color: orange;
+        }
+    </style>
+
+</head>
+<body>
+    <table class="border_1_solid_black">
+        <tr>
+            <td>Colonne 1</td>
+            <td>Colonne 2</td>
+        </tr>
+    </table>
+</body>
+</html>
